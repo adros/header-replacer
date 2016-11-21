@@ -11,16 +11,19 @@ Sample configuration
     "plugins": [
         "pro-xy-header-replace"
     ],
-    "pro-xy-header-replace": [
-		{
-			"urlPattern": ".*",
-			"request" : false,
-			"response" : true,
-			"header" : "Content-Type",
-			"pattern": "text/html",
-			"replacement": "text/plain"
-	    }
-	]
+	"pro-xy-cookie-replace" : {
+		"disabled": true,
+		"replaces": [
+			{
+				"urlPattern": ".*",
+				"request" : false,
+				"response" : true,
+				"header" : "Content-Type",
+				"pattern": "text/html",
+				"replacement": "text/plain"
+		    }
+		]
+	}
 }
 ```
 
