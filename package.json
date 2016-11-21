@@ -1,6 +1,6 @@
 {
   "name": "pro-xy-header-replace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin for pro-xy. It allows doing replaces in headers.",
   "main": "lib/proxyHeaderReplace.js",
   "scripts": {
